@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", times;
+}
+body {
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  place-items: Center;
+  color: #fff;
+  text-align: justify;
+}
+.container {
+  background: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+  background-position: center;
+  background-size: cover;
+  max-width: 1300px;
+  width: 100%;
+  height: 5000px;
+  padding: 2em 0px;
+  backdrop-filter: blur(10px);
+}
+.container h1 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 20px;
+  font-size: 4.5em;
+  font-family: times;
+}
+.container .list1 {
+  position: absolute;
+  left: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list1 img {
+  height: 100px;
+  width: 180px; 
+}
+.container .list1 .wrapper {
+  padding-left: 10px;
+}
+.container .list1 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list1 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list1 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list1 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+.container .list2 {
+  position: absolute;
+  right: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list2 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list2 .wrapper {
+  padding-left: 10px;
+}
+.container .list2 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list2 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list2 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list2 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+.container .list3 {
+  position: absolute;
+  top: 1050px;
+  left: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list3 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list3 .wrapper {
+  padding-left: 10px;
+}
+.container .list3 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list3 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list3 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list3 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+.container .list4 {
+  position: absolute;
+  top: 1190px;
+  right: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list4 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list4 .wrapper {
+  padding-left: 10px;
+}
+.container .list4 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list4 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list4 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list4 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+
+
+
+.container .list5 {
+  position: absolute;
+  top: 2200px;
+  left: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list5 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list5 .wrapper {
+  padding-left: 10px;
+}
+.container .list5 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list5 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list5 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list5 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+
+.container .list6 {
+  position: absolute;
+  top: 1950px;
+  right: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list6 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list6 .wrapper {
+  padding-left: 10px;
+}
+.container .list6 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list6 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list6 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list6 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+.container .list7 {
+  position: absolute;
+  top: 2630px;
+  right: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list7 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list7 .wrapper {
+  padding-left: 10px;
+}
+.container .list7 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list7 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list7 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list7 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+
+.container .list8 {
+  position: absolute;
+  top: 2900px;
+  left: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list8 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list8 .wrapper {
+  padding-left: 10px;
+}
+.container .list8 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list8 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list8 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list8 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+.container .list9 {
+  position: absolute;
+  top: 3480px;
+  right: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list9 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list9 .wrapper {
+  padding-left: 10px;
+}
+.container .list9 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list9 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list9 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list9 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+
+
+
+.container .list10 {
+  position: absolute;
+  top: 3550px;
+  left: 20px;
+  background:
+rgba( 255, 255, 255, 0.25 );
+box-shadow:
+0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:
+blur( 20px );
+-webkit-backdrop-filter:
+blur( 4px );
+border-radius:
+10px;
+border:
+1px solid rgba( 255, 255, 255, 0.18 );
+
+  width: 47%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container .list10 img {
+  height: 100px;
+  width: 180px;
+}
+.container .list10 .wrapper {
+  padding-left: 10px;
+}
+.container .list10 .wrapper h3 {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: courier;
+  font-size: 2em;
+}
+.container .list10 .wrapper h4 {
+  text-align: center;
+  font-family: arial;
+  font-size: 1em;
+}
+.container .list10 .wrapper h5 {
+  text-align: center;
+  font-family: san-serif;
+  font-size: 1.5em;
+}
+.container .list10 .wrapper p {
+  padding: 5px;
+  margin-left: 9px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #020202;
+}
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Recommended Wattpad Stories</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+
+<body>
+<br>
+<div class="container">
+  <h1>Recommended Wattpad Stories</h1>
+
+
+  <div class="list1">
+    <div class="wrapper">
+      <h3>HE'S INTO HER</h3>
+    <center><img src="https://img.wattpad.com/cover/1965721-176-k846593.jpg"></center>
+      <h4>322M Reads 7.5M Votes<h4>
+<h4>by: maxinejiji<h4>
+<br>
+<h5>Prologue</h5>
+<p>Nainlove ka na ba?</p>
+<p>Nagkagusto ka na ba?</p>
+<p>Nagkacrush ka na ba?</p>
+<p>Paano ko ba malalaman kung may crush ako sa isang tao?</p>
+ <p>Paano ko malalaman kung gusto ko sya?</p>
+ <p>At paano ko malalaman kung MAHAL ko na sya?</p>
+<p>Sabi kasi nila ang love daw ay nag-uumpisa sa crush na kapag tumatagal ay
+nauuwi sa like na natatapos sa love...</p>
+<p>E pano ko nga malalaman kung crush ko sya? Sapat na ba yung tingin lang
+ako ng tingin sa kanya para masabi kong crush ko sya? E pano kung kaya
+ako tingin ng tingin sa kanya e dahil naiinis ako sa kanya? Dahil ayaw ko
+sa itsura nya? Masasabi pa bang crush yun?</p>
+<p>Ang hirap noh?</p>
+<p>Pero paano kung kabaliktaran ang maramdaman mo? Paano kung sobrang
+pagkaayaw ang nararamdaman mo sa isang tao? Yung tipong kung kelan ayaw
+mo syang makita doon sya sumusulpot? Yung kahit na gusto mo na syang
+burahin sa mundo hindi mo magawa dahil hindi ka naman pwedeng pumatay na
+lang ng tao.</p>
+<p>Sabi ng mga kaibigan ko, "THE MORE YOU HATE, THE MORE YOU LOVE". 
+Well, I'don't hate her, I just don't like her! Does that mean that I love her? No
+way! She doesn't have the looks, the body, the brains, humor and
+everything! She doesn't even have money to buy her needs! And in my eyes,
+she's NONSENSE!
+</p>
+<p></p>
+   </div>
+</div>
+
+
+
+  <div class="list2">
+    <div class="wrapper">
+     <h3>THE FOUR BAD BOYS AND ME</h3>
+    <center><img src="https://img.wattpad.com/cover/5158214-176-k545685.jpg"></center>
+<h4>313M Reads      6.2M votes<h4>
+<h4>by: Tina Lata<h4>
+<br>
+<h5>Prologue</h5>
+<p>APAT, grupo ng mayayabang, kinakatakutan at tinitingalang bad boys sa school..</p>
+<p>Jeydon Lopez. Ang leader ng grupo at ang pinaka bad boy sa kanilang lahat. Siya 'daw' yung hari ng school kaya tinitingala siya ng halos lahat ng mga studyante. Gwapo, mayaman, sikat, habulin ng mga babae at ang Captain ng basketball team. Siya ang numero unong bully sa school namin, mapang asar at napaka yabang. Malakas mag yosi at uminon ng alak. Siya yung taong pinaka kinaiinisan ko sa lahat.</p>
+<p>Troy Mendoza. Siya ang best friend at palaging kasama ni Jeydon. Cute, mayaman at sobrang kulit. Siya ang wonanizer sa kanilang apat dahil siya ang pinaka mahilig sa mga babae at ang 'boyfriend ng campus' dahil sa dami ng girlfriend niya. Napaka dami na niyang babaeng pina iyak. Isa din siya sa kinaiinisan kong tao sa school.</p>
+<p>Charles Gonzales. Ang pinaka matanda sa grupo. Siya ang basagulero sa kanilang apat, walang alam kundi makipag away. Gwapo, mayaman, sobrang mapang asar at kinakatakutan sa school. Hindi lang siya sa school expert mang bully pati sa buhay ko. Unfortunately kapatid ko siya, mahal ko siya pero naiinis din ako sakanya.</p>
+<p>Marky Lim. Siya ang huling kukumpleto sa grupo nila. Siya yung silent type sa grupo nila na parang may sariling mundo palagi. Gwapo, masunget tska snobero. Sabi nila siya daw yung pinaka player sa kanilang apat pero hindi ako naniniwala kasi crush ko siya eh. Ang galing galing niya kasi kumanta tska napaka gwapo pa. Siya lang ata yung gusto ko sakanila.</p>
+<p>Ako?</p>
+<p>Ako si Candice Gonzales.</p>
+<p>Im just a nobody..</p>
+<p>Nerd..</p>
+<p>Weird..</p>
+<p>Forever alone..</p>
+<p>Kaso lang lahat yan nag bago, yung tahimik kong buhay. GUMULO!</p>
+<p>Lahat yun kagagawan ng FOUR BAD BOYS.</p>
+</p>
+<p></p>
+   </div>
+</div>
+
+
+
+ <div class="list3">
+    <div class="wrapper">
+      <h3>MY HUSBAND IS A MAFIA BOSS</h3>
+    <center><img src="https://img.wattpad.com/cover/7017775-176-k726753.jpg"></center>
+<h4>193M Reads     3.7M Votes<h4>
+<h4>by: YanaJin<h4>
+<br>
+<h5>Prologue</h5>
+<p>Isa lang akong ordinaryong babae, as in ordinary. Maganda, sexy, matalino. Pero syempre JOKIJOKI lang lahat yan, si mommy lang may sabi nyan hehehe.</p>
+<p>Hanggang isang araw, may di inaasahang pangyayari..</p>
+<p>Nakatagpo ako ng isang lalakeng may kakaibang ugali..</p>
+<p>At sinabing..
+"we're married"</p>
+<p>Waaaaaa!</p>
+<p>Pero alam nyo ba, nung naging asawa ko na sya, ang sweet sweet-</p>
+<p>"Hoy babae ang daldal mo!"</p>
+<p>"teka naman Zeke nagkwekwento kaya ako dito"</p>
+<p>Hihihi may sasabihin ako sa inyong sikreto.</p>
+<p>Madalas hindi ko sya naiintindihan kasi naman may pagka engeng. Ako pa nga sinasabihan nya ng tanga pero feeling ko naman sya talaga yung tanga eh.</p>
+<p>"Tsss can't you make that fvcking speech of yours a little faster?"</p>
+<p>Kitams? Pano ko bibilisan ito edi hindi nyo naintindihan, saka Prologue kaya ito, hindi naman speech.</p>
+<p>"HOY BABAE KINAKAUSAP KITA!"</p>
+<p>"yes hubby!"</p>
+<p>Hihihi ang sweet nya no? Hindi makapag-antay na matapos ako.</p>
+<p>O sya! Aalis na ako ha? Baka magalit ang hubby kong...</p>
+<p>Uhmmm Ano nga ulit sya?</p>
+<p>Driver?</p>
+<p>*iling-iling*</p>
+<p>Magnanakaw?</p>
+<p>*iling-iling*</p>
+<p>Waaaaaaaaa!</p>
+<p>OMYGOD!!</p>
+<p>MAFIA BOSS???!!!</p>
+<p>End of the world na ba?
+</p>
+<p></p>
+   </div>
+</div>
+
+
+
+ <div class="list4">
+    <div class="wrapper">
+      <h3>TEEN CLASH</h3>
+    <center><img src="https://img.wattpad.com/cover/1300376-176-k149437.jpg"></center>
+<h4>168M Reads      3.4M Votes<h4>
+<h4>by: Idangs<h4>
+<br>
+<h5>Prologue</h5>
+<p>Ano kaya ang mangyari kung magtransfer ang apat na amazonang babae sa eskwelahan na pinamumunuan ng apat na maangas lalaki?</p>
+<p>Papayag na lang kaya silang magpasailalim na lang din sa kamay ng mga lalaking kadalasang inaapi ang mga kababaihan, o maglalakas loob na silang lumaban?</p>
+<p>Laging away na nga lang ba ang maganap, o pwede rin may mamuong pagmamahalan?</p>
+<p>Supladong Sean VS Palaban na Kaycee</p>
+<p>Casanovang Gabe VS Mataray na Bailey</p>
+<p>Mapang-asar na Grant VS Mapangbarang Lexi</p>
+<p>Mayabang na Ken VS Masungit na Tati</p>
+<p>May pag-asa pa nga bang magkabati silang walo o mapanindigan na nila ang pagiging..</p>
+<p>BOYS VS GIRLS?
+</p>
+<p></p>
+   </div>
+</div>
+ 
+
+
+
+ <div class="list5">
+    <div class="wrapper">
+      <h3>I LOVE YOU SINCE 1892</h3>
+    <center><img src="https://img.wattpad.com/cover/73769535-176-k383406.jpg"></center>
+<h4>108M reads       2.1M Votes<h4>
+<h4>by: Binibining Mia<h4>
+<br>
+<h5>Prologue</h5>
+<p>Meet Carmela Isabella ang spoiled maldita na nabitter sa pag-ibig pero lahat ng iyon ay magbabago nang bigla siyang napunta sa unang panahon, in the year of 1892. Oo tama kayo, panahon pa nila Jose Rizal.</p>
+<p>Natuklasan ni Carmela na may dalagang nabuhay noong 1892 na sobrang kamukha niya at ito ay si Carmelita Montecarlos ang bunsong kapatid ng kaniyang lola sa talampakan. Para makabalik siya sa 2016 kailangan niyang baguhin ang mapait na kapalaran na sinapit ni Carmelita dahil sa pag-iibigan nila ni Juanito Alfonso.</p>
+<p>Pero paano na lang kung sa hindi inaasahang pagkakataon ay ma-inlove siya sa lalaking nasa ibang panahon? Ang spoiled brat ng 2016 na si Carmela ay nainlove sa gwapong gentleman ng 1892 na si Juanito, posible kaya to?
+</p>
+<p>Samahan niyo na ang makulit at sobrang epic na adventure ni Carmela sa panahon pa ng Espanyol... muli nating balikan ang love story of 1892.</p>
+</p>
+<p></p>
+   </div>
+</div>
+<br>
+
+
+
+<div class="list6">
+    <div class="wrapper">
+      <h3>OUR ASYMPTOTIC LOVE STORY</h3>
+    <center><img src="https://img.wattpad.com/cover/108155342-176-k58746.jpg"></center>
+<h4>27.3M Reads       624K Votes<h4>
+<h4>by: Binibining Mia<h4>
+<br>
+<h5>Prologue</h5>
+<p>Pilit hinahanap ni Aleeza ang mga kasagutan sa mga kakaibang panaginip at pakiramdam na nararanasan niya sa tuwing bumubuhos ang ulan at sa tuwing nakikita niya ang estrangherong naghahatid ng magkahalong saya at lungkot sa kanyang puso: si Nathan. </p>
+<p>Magagawa kaya nilang maitama ang pagkakamali ng nakaraan upang maiwasan ang trahedyang dulot ng bawal na pag-ibig na nagsimula pa noong una at nagpapatuloy kahit ilang siglo na ang nakalipas? O hanggang sa panahon bang ito ay hindi parin nila mababago ang nakasulat sa kanilang kapalaran?</p>
+<p>A story that look back from its past and present. Will the lines connect them for the second time around ? Or history repeats itself ?</p>
+</p>
+<p></p>
+   </div>
+</div>
+<br>
+
+
+<div class="list7">
+    <div class="wrapper">
+      <h3>SHE'S DATING THE GANGSTER</h3>
+    <center><img src="https://2.bp.blogspot.com/-El4Vpa6C4dg/UxxDyJkx54I/AAAAAAAAAFc/wjiVqJWoJNM/s1600/shes+dating+a+gangster+the+movie+(1).PNG"></center>
+<h4>6.69M Reads      120K Votes<h4>
+<h4>by: Bianca Bernardino<h4>
+<br>
+<h5>Prologue</h5>
+<p>Love is happiness.<p>
+<p>Love is smiling when you hear that person’s voice.<p>
+<p>Love is the butterflies in your tummy no matter how many times you see that persons.<p>
+<p>Love is when you look at them and smile for no reason.<p>
+<p>Love is seeing an imperfect person perfectly.<p>
+<p>love is painful.<p>
+<p>Love is hard.<p>
+<p>Love is sacrifice.<p>
+<p>Love is sadness.<p>
+<p>"Can i love without the happiness ? Can i live with tht sadness ? I don't know... I don't know anything anymore"</p>
+</p>
+<p></p>
+   </div>
+</div>
+<br>
+
+
+<div class="list8">
+    <div class="wrapper">
+      <h3>UNTIL HE WAS GONE</h3>
+    <center><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506896498l/36337725._SX318_.jpg"></center>
+<h4>99.7M Reads     2.33M Votes<h4>
+<h4>by: Jonaxx<h4>
+<br>
+<h5>Prologue</h5>
+<p>Si Klare Montefalco ay ipinanganak sa isang kilala at marangyang pamilya. Everything is perfect. Mahal siya ng pamilya niya at mahal din niya ang mga ito. Her life is simple. No drama, no sweat, no nonsense. Nang tumibok ang puso niya, doon niya napagtanto na ang bawat pader na inakala niya'y matibay ay natitibag din. Na lahat ng pinakaiingatan niya ay maaring mawala sa kanya. Dahil may mga pag ibig na kahit anong gawing iwas mo ay lagi kang tinatamaan. Iyong pag ibig na umiilag ka na, bull's eye ka pa rin. Iyong tipong sinarado mo na ang pinto mo, pilit paring kumakatok. But Klare's fierce, she wouldn't let that happen. No. She will risk her heart just to protect her comfort zone, her home, her everything.<p>
+<p>Ngunit sa pagkawala ng pag ibig niya, doon lang din ba niya mapagtatanto kung ano ang nawala sa kanya? That she had lost everything when she let him go? Is she ready to fight for it now? Now that he's gone?</p>
+</p>
+<p></p>
+   </div>
+</div>
+<br>
+
+
+<div class="list9">
+    <div class="wrapper">
+      <h3>HELL UNIVERSITY</h3>
+    <center><img src="https://img.wattpad.com/cover/62354932-176-k874493.jpg"></center>
+<h4>145M Reads       4.42M Votes<h4>
+<h4>by: KnightInBlack<h4>
+<br>
+<h5>Prologue</h5>
+<p>A place where everything is mysterious, enchanting, bloody, and shitty. Entering is the other way of suicidal. Just one wrong move and everything will blur. A lot of secrets are being hid.<p> 
+<p>Not the typical school to have fun. Death is everywhere.<p> 
+<p>Bad, worse, worst, monster and evil are scattered.<p>
+<p>Must shut your mouth, never against to anyone.<p>
+<p>"Once you enter, there's no turning back."<p>
+<p>Never trust your curiosity, it could just drive you straight to hell.<p> 
+<p>WELCOME TO HELL UNIVERSITY!</p>
+</p>
+<p></p>
+   </div>
+</div>
+<br>
+
+
+
+<div class="list10">
+    <div class="wrapper">
+      <h3>DESIRING HER</h3>
+    <center><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612028425l/56889043._SY475_.jpg"></center>
+<h4>42.5 Reads      1.06M Votes<h4>
+<h4>by: Cecelib<h4>
+<br>
+<h5>Prologue</h5>
+<p>Berry Lacsamana had given up on life. But when she one day wakes up in a strange bed with someone calling her his wife, her life begins to take a different path.<p> 
+<p>When Berry Lacsamana wakes up in a room she doesn't recognize, hooked up to medical machines, confusion and anxiety consume her. Deepening Berry's fear is the presence of Cadmus Valcarcel who treats her coldly and and looks at her with resentment.<p> 
+<p>"Finally," he said with coldness in his voice that made her shiver, frightening her. "My infamous wife is awake"<p>
+<p>Berry isn't anyone's wife, lest she is married to Cadmus. However, when she sees a photos of Cherry, a woman looks like her from every angle, Berry begins to have suspicions.<p>
+<p>She knew she was Berry, not Cherry... wasn't she ?</p>
+</p>
+<p></p>
+   </div>
+</div>
+<br>
+</body>
+</html>
